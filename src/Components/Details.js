@@ -22,7 +22,7 @@ class Details extends Component {
               <h2>Where</h2>
                   <p className="address">
                     <span>
-                      758 1/2 N Ridgewood Pl
+                      758 N Ridgewood Pl, Unit #1/2
                       <br />
                       Los Angeles, CA, 90038
                     </span>
