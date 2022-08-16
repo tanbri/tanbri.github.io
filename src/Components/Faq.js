@@ -23,7 +23,7 @@ class Faq extends Component {
                 <span>Getting here?</span>
               </h1>
             </div>
-                <p className="faq-answer">Navigate to 758 N Ridgewood Pl, and we're the back left unit.</p>
+                <p className="faq-answer">Navigate to 758 N Ridgewood Pl. We're the back left unit.</p>
           </div>
         </Slide>
 
@@ -37,7 +37,11 @@ class Faq extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <p className="faq-answer">There is none, sorry. Just Uber.</p>
+                <p className="faq-answer">None on our immediate street.
+                  If you want to find an adjacent street to park on,
+                  please check the signs and make sure other cars don't have permits.
+                  Or just Uber.
+                </p>
               </div>
             </div>
           </div>
