@@ -28,7 +28,7 @@ class Details extends Component {
                     </span>
                   </p>
               <h2>When</h2>
-              <p>September 3, 2022, 8PM PDT</p>
+              <p>October 23, 2022, 10AM PDT</p>
               <div className="row">
               </div>
             </div>

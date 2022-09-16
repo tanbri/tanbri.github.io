@@ -37,7 +37,8 @@ class Faq extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <p className="faq-answer">None on our immediate street.
+                <p className="faq-answer">We have two visitor passes for our immediate street.
+                  First come, first serve.
                   If you want to find an adjacent street to park on,
                   please check the signs and make sure other cars don't have permits.
                   Or just Uber.
@@ -63,7 +64,7 @@ class Faq extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        {/* <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -77,7 +78,7 @@ class Faq extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
 
         <Slide left duration={1300}>
           <div className="row education">
