@@ -13,6 +13,7 @@ class Faq extends Component {
 
   render() {
     if (!this.props.data) return null;
+    const { acid } = this.props;
 
     return (
       <section id="faq">
@@ -27,25 +28,48 @@ class Faq extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
-          <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Parking?</span>
-              </h1>
-            </div>
+        { acid ?
+          <Slide left duration={1300}>
+            <div className="row education">
+              <div className="three columns header-col">
+                <h1>
+                  <span>Parking?</span>
+                </h1>
+              </div>
 
-            <div className="nine columns main-col">
-              <div className="row item">
-                <p className="faq-answer">None on our immediate street. 
-                  If you want to find an adjacent street to park on,
-                  please check the signs and make sure other cars don't have permits.
-                  Or just Uber.
-                </p>
+              <div className="nine columns main-col">
+                <div className="row item">
+                  <p className="faq-answer">
+                    Our immediate street only allows parking from 8AM to 6PM.
+                    If you want to find an adjacent street to park on,
+                    please check the signs and make sure other cars don't have permits.
+                    Or just Uber.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </Slide>
+          </Slide> :
+
+          <Slide left duration={1300}>
+            <div className="row education">
+              <div className="three columns header-col">
+                <h1>
+                  <span>Parking?</span>
+                </h1>
+              </div>
+
+              <div className="nine columns main-col">
+                <div className="row item">
+                  <p className="faq-answer">None on our immediate street. 
+                    If you want to find an adjacent street to park on,
+                    please check the signs and make sure other cars don't have permits.
+                    Or just Uber.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Slide>
+        }
 
         <Slide left duration={1300}>
           <div className="row education">
@@ -63,6 +87,7 @@ class Faq extends Component {
           </div>
         </Slide>
 
+        { !acid &&
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -78,6 +103,7 @@ class Faq extends Component {
             </div>
           </div>
         </Slide>
+        }
 
         <Slide left duration={1300}>
           <div className="row education">

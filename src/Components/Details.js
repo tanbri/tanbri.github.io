@@ -6,6 +6,7 @@ class Details extends Component {
     if (!this.props.data) return null;
 
     const pic = "images/" + this.props.data.image;
+    const { when } = this.props;
 
     return (
       <section id="details">
@@ -28,7 +29,7 @@ class Details extends Component {
                     </span>
                   </p>
               <h2>When</h2>
-              <p>October 29, 2022, 8PM PDT</p>
+              <p>{when}</p>
               <div className="row">
               </div>
             </div>
