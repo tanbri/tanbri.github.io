@@ -37,13 +37,20 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #12D5A9;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #ddd;
+   color: #43BBEB;
+   margin: 0 auto;
+   width: 70%;
+}
+
+header .banner-text h2 {
+   /* font: 18px/1.9em 'librebaskerville-regular', serif; */
+   color: #fff;
    margin: 0 auto;
    width: 70%;
 }
