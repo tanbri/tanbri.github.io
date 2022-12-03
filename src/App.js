@@ -54,14 +54,14 @@ class App extends Component {
             <Route exact path='' element={
             <div className='App'>
               <Header
-                name='happy halloween :)'
-                description='show up in a costume'
-                rsvp='https://forms.gle/TvaCbUssZwbLYKNVA'
-                type='fountain'
+                name='take acid'
+                description='bitch'
+                rsvp='https://forms.gle/GodVH82EgMjmXNEWA'
+                type='lines'
               />
               <Details
                 data={this.state.resumeData.main}
-                when='October 29, 2022, 8PM PDT'
+                when='December 10, 2022, 10AM PST'
               />
               <Faq data={this.state.resumeData.resume} />
               <Footer data={this.state.resumeData.main} />

@@ -92,13 +92,13 @@ class Faq extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>What To Bring?</span>
+                <span>Activities???</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <p className="faq-answer">You don't have to bring anything but a smile :), but beer or seltzers never hurt.</p>
+                <p className="faq-answer">Oh yes.</p>
               </div>
             </div>
           </div>
