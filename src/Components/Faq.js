@@ -87,6 +87,22 @@ class Faq extends Component {
           </div>
         </Slide>
 
+        <Slide left duration={1300}>
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
+                <span>Food?</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">
+              <div className="row item">
+                <p className="faq-answer">Breakfast will be served at 9AM. We will be providing lunch as well.</p>
+              </div>
+            </div>
+          </div>
+        </Slide>
+
         { !acid &&
         <Slide left duration={1300}>
           <div className="row education">
