@@ -54,14 +54,14 @@ class App extends Component {
             <Route exact path='' element={
             <div className='App'>
               <Header
-                name='take acid'
-                description='bitch'
-                rsvp='https://forms.gle/GodVH82EgMjmXNEWA'
-                type='lines'
+                name='food processor party'
+                description='come process food with us!'
+                rsvp='https://docs.google.com/spreadsheets/d/1Yj4uT4xHP2eZRos2ffBS846utXWDThhcCYOHyjK_VYA/edit?usp=sharing'
+                type='polygon'
               />
               <Details
                 data={this.state.resumeData.main}
-                when='December 10, 2022, 10AM PST'
+                when='January 7, 2023, 12PM PST'
               />
               <Faq data={this.state.resumeData.resume} />
               <Footer data={this.state.resumeData.main} />
@@ -82,7 +82,7 @@ class App extends Component {
               />
               <Details
                 data={this.state.resumeData.main}
-                when='October 23, 2022, 10AM PDT'
+                when='January 7, 2023, 12PM PST'
               />
               <Faq
                 data={this.state.resumeData.resume}
