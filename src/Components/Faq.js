@@ -60,10 +60,7 @@ class Faq extends Component {
 
               <div className="nine columns main-col">
                 <div className="row item">
-                  <p className="faq-answer">None on our immediate street. 
-                    If you want to find an adjacent street to park on,
-                    please check the signs and make sure other cars don't have permits.
-                    Or just Uber.
+                  <p className="faq-answer">Park anywhere on our street!!!
                   </p>
                 </div>
               </div>
@@ -86,40 +83,6 @@ class Faq extends Component {
             </div>
           </div>
         </Slide>
-
-        <Slide left duration={1300}>
-          <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Food?</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <div className="row item">
-                <p className="faq-answer">Breakfast will be served at 9AM. We will be providing lunch as well.</p>
-              </div>
-            </div>
-          </div>
-        </Slide>
-
-        { !acid &&
-        <Slide left duration={1300}>
-          <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Activities???</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <div className="row item">
-                <p className="faq-answer">Oh yes.</p>
-              </div>
-            </div>
-          </div>
-        </Slide>
-        }
 
         <Slide left duration={1300}>
           <div className="row education">
