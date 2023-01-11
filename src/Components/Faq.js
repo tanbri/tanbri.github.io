@@ -60,7 +60,11 @@ class Faq extends Component {
 
               <div className="nine columns main-col">
                 <div className="row item">
-                  <p className="faq-answer">Park anywhere on our street!!!
+                  <p className="faq-answer">
+                    Our immediate street only allows parking from 8AM to 6PM.
+                    If you want to find an adjacent street to park on,
+                    please check the signs and make sure other cars don't have permits.
+                    Or just Uber.
                   </p>
                 </div>
               </div>
@@ -79,6 +83,22 @@ class Faq extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <p className="faq-answer">2257</p>
+              </div>
+            </div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
+                <span>What to bring?</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">
+              <div className="row item">
+                <p className="faq-answer">Wear red. Beer or liquor always welcome.</p>
               </div>
             </div>
           </div>
