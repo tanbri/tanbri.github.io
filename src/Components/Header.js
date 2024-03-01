@@ -52,7 +52,7 @@ class Header extends Component {
               <h3>{description}</h3>
             </Fade>
             <hr />
-            <h2><a href={rsvp} target="_blank" rel="noreferrer">RSVP</a></h2>
+            <h2><a href={rsvp} target="_blank" rel="noreferrer">Interest Form</a></h2>
           </div>
         </div>
 

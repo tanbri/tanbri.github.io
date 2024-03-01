@@ -23,9 +23,9 @@ class Details extends Component {
               <h2>Where</h2>
                   <p className="address">
                     <span>
-                      758 N Ridgewood Pl, Unit #1/2
+                      Monday Night Garage
                       <br />
-                      Los Angeles, CA, 90038
+                      933 Lee St SW, Atlanta, GA 30310
                     </span>
                   </p>
               <h2>When</h2>

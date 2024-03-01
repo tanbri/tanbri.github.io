@@ -54,14 +54,14 @@ class App extends Component {
             <Route exact path='' element={
             <div className='App'>
               <Header
-                name='🐇'
-                description='新年快乐!'
-                rsvp='https://forms.gle/Ums7qqxMFdgfpbxh8'
+                name='Brookwood High School 10 Year Reunion'
+                description='Class of 2014'
+                rsvp='https://docs.google.com/spreadsheets/d/1-bOGo159UAo7KxOc1ZijTcVlHkuxeXpEeGxgVkpFUYs/edit?fbclid=IwAR249alO0BfxvggZukMcK7sHVutOb6JjF1sDZ9krd0Xx2HewC7sq2owV1qc#gid=0'
                 type='polygon'
               />
               <Details
                 data={this.state.resumeData.main}
-                when='January 21, 2023, 9PM PST'
+                when='June 1, 2024, 5PM–8PM EDT'
               />
               <Faq data={this.state.resumeData.resume} />
               <Footer data={this.state.resumeData.main} />

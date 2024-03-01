@@ -21,10 +21,10 @@ class Faq extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Getting here?</span>
+                <span>Tickets?</span>
               </h1>
             </div>
-                <p className="faq-answer">Navigate to 758 N Ridgewood Pl. We're the back left unit.</p>
+                <p className="faq-answer">Tickets are $35 and covers entry and 2 drink tickets. Or $20 for just entry.</p>
           </div>
         </Slide>
 
@@ -43,7 +43,7 @@ class Faq extends Component {
                     Our immediate street only allows parking from 8AM to 6PM.
                     If you want to find an adjacent street to park on,
                     please check the signs and make sure other cars don't have permits.
-                    Or just Uber.
+                    Or just Uber. 
                   </p>
                 </div>
               </div>
@@ -54,17 +54,14 @@ class Faq extends Component {
             <div className="row education">
               <div className="three columns header-col">
                 <h1>
-                  <span>Parking?</span>
+                  <span>Plus ones?</span>
                 </h1>
               </div>
 
               <div className="nine columns main-col">
                 <div className="row item">
                   <p className="faq-answer">
-                    Our immediate street only allows parking from 8AM to 6PM.
-                    If you want to find an adjacent street to park on,
-                    please check the signs and make sure other cars don't have permits.
-                    Or just Uber.
+                  Yes! Their ticket will also be $35 and covers 2 drink tickets, or $20 for just entry.
                   </p>
                 </div>
               </div>
@@ -76,13 +73,17 @@ class Faq extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Gate Code?</span>
+                <span>Rain?</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <p className="faq-answer">2257</p>
+                <p className="faq-answer">
+                  Currently, we plan to be in the Monday Night Courtyard, which is an outdoor patio. 
+                  It is POSSIBLE for the event date and space to be moved indoors (still at Monday Night) 
+                  IF there is availablilty and depending on how many people buy tickets. Otherwise, 
+                  plan for this date rain or shine. If you want it to be indoors, get more people to sign up!</p>
               </div>
             </div>
           </div>
@@ -92,13 +93,16 @@ class Faq extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>What to bring?</span>
+                <span>Food?</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <p className="faq-answer">Wear red. Beer or liquor always welcome.</p>
+                <p className="faq-answer">
+                  There is a dedicated food and bar truck in the Courtyard. 
+                  They will take your drink tickets, additional drink orders, 
+                  and pizza orders. Food, as of now, is not covered in your ticket.</p>
               </div>
             </div>
           </div>
@@ -108,13 +112,17 @@ class Faq extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Lost As Fuck?</span>
+                <span>$$$?</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
               <div className="row item">
-                <p className="faq-answer">Call 770 885 3245 or 678 510 6777 you dumbass.</p>
+                <p className="faq-answer">
+                  The first 100-150 tickets bought need to cover the rental fee, 
+                  drink tickets, and gratuity/tax. As more tickets are sold, 
+                  we can potentially move our event indoors and into a larger space, 
+                  or it will go toward purchasing food to share, more drink tickets, etc.</p>
               </div>
             </div>
           </div>
